@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "animalCards": [
+    {
+      "id": 1,
+      "shotsNeeded": ["Novice Agility", "Open Agility"],
+      "image": "/SikuHeadshot.jpg",
+      "callName": "Siku",
+      "age": 7,
+      "fullName": "Siku Vilandre TN",
+      "titlesWorkingToward": [
+        { "id": 1, "name": "Novice Agility", "abbreviation": "NA" }
+      ]
+    },
+    {
+      "id": 2,
+      "shotsNeeded": ["Novice Agility", "Open Agility"],
+      "image": "myPicture",
+      "callName": "Koa",
+      "age": 5,
+      "fullName": "Koa Vilandre TN",
+      "titlesWorkingToward": [
+        { "id": 1, "name": "Novice Agility", "abbreviation": "NA" }
+      ]
+    }
+  ]
+}
