@@ -13,7 +13,7 @@ export function CreateHeader() {
         (request) => {
           request.headers.set(
             "Authorization",
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTQ2MTMxNTEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMCJ9.0sJOW33-qZhlN6BTqsYfLTA20WiVo1YU6F5M2sSVRrM"
+            
           );
         },
       ],
